@@ -1,0 +1,55 @@
+Temat powtórzenie wiadomości z PDO - XAMPP
+
+
+Zadanie projektowe:
+
+Aplikacja "Radość"
+
+1. Utwórz baze danych w phpmyadmin o nazwie "radosc" check
+2.Dodaj do bazy relacyjny model tabel: check
+	-Wydarzenia (IDW nazwa)
+	-Efekt(IDE(pk), IDW(fk),nazwa 
+3. Rodzaj polaczenia w aplikacji z bazą danych to: PDO check
+4.Struktura aplikacji:
+	-baza danych: posiada relacje oraz 5 wpisów do wydarzeń i dowolną ilosc efektów check
+	-index.php: menu (Home,LISTA Wydarzeń,Efekt dla wydarzenia) check
+	zalecenia: strona startowa, posiadająca menu, najlepiej w css lub css bootstrap check
+	oraz index.php posiada stopkę z informacją nt. ucznia: Imie Nazwisko  check
+
+	-lista.php: plik posiadapołączenia do bazy, oraz pobiera do formularz znacznika <select>
+wszystkie rekordy z bazy danych, po wybraniu "wydarzenia" poprzez metode js onchange przechodzi do efekt.php
+
+-efekt.php: plik który prezentuje nazwe wydarzenia wraz z wszystkimi efektami które wynikają z relacji
+np.Tytuł "Wyjście do kina"
+-Dobre Emocje
+-Bolące 4 litery
+
+ INSERT INTO wydarzenia VALUES ('Wyjscie do kina','Zawody sportowe','Karkowka','wycieczka do gdyni','lekcja wychowawcza');
+INSERT INTO `efekt`(`IDW`, `Nazwa`) VALUES ('1','Radosc');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

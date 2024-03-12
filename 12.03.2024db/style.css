@@ -1,0 +1,24 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+  }
+  li{
+    
+    font-size: 40px;
+  }
+  li a{
+    text-decoration: none;
+    color: black;
+  }
+  body{
+    background-color: beige;
+  }
+  footer{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100%;
+    margin-top: 800px;
+    padding-top: 30px;
+  }

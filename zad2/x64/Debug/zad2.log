@@ -1,0 +1,6 @@
+﻿  zad2.cpp
+C:\Users\Programista\Desktop\12.03.2024\zad2\zad2.cpp(33,24): error C2440: "<function-style-cast>": nie można konwertować z "initializer list" na "Krokodyl"
+C:\Users\Programista\Desktop\12.03.2024\zad2\zad2.cpp(33,24): message : "Krokodyl::Krokodyl": funkcja nie przyjmuje 3 argumentów
+C:\Users\Programista\Desktop\12.03.2024\zad2\zad2.cpp(33,24): message : podczas próby dopasowania listy argumentów "(const char [9], const char [7], const char [7])"
+C:\Users\Programista\Desktop\12.03.2024\zad2\zad2.cpp(33,14): error C2512: "Krokodyl": niedostępny odpowiedni konstruktor domyślny
+C:\Users\Programista\Desktop\12.03.2024\zad2\zad2.cpp(16,7): message : zobacz deklarację „Krokodyl”

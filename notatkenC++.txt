@@ -1,0 +1,21 @@
+						Temat : Dziedziczenie w C++
+							      | 
+	     						   dziadek
+							      |
+	    				        Ojciec(dziedziczy po dziadku)
+							      |
+	     				  Syn(może dziedziczyć po dziadku i ojcu)
+
+				class A{             REDUNDACJA-Nadmiarowość
+				właściwości
+				funkcja
+				konstrukor	
+				}
+				class B{
+				właściwości
+                                konstruktor
+				funkcja
+				}
+
+Utwórz aplikacje w C++. aplikacja dziedziczy w klasie Krokodyl konstruktor, metody, właściwości
+z klasy Gady zaprezentuj 3 różne odmiany krokodyki w konsoli
